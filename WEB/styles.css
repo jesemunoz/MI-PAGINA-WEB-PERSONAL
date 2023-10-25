@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos de la navegación */
+  header {
+    background-color: #3498db;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  /* Estilos de la sección principal */
+  #inicio {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .banner-principal img {
+    max-width: 100%;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+  }
+  
+  section p {
+    text-align: justify;
+    margin: 20px 0;
+  }
+  
+  /* Estilos de los proyectos destacados */
+  .proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .proyectos img {
+    max-width: 100%;
+    margin: 10px;
+  }
+  
+  /* Estilos del formulario de contacto */
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .redes-sociales li {
+    margin: 0 10px;
+  }
+  
+  .redes-sociales img {
+    max-width: 30px;
+  }
+  
+  .redes-sociales a {
+    color: #fff;
+  }
+  
+  /* Estilos responsive */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    nav ul li {
+      margin: 0 5px;
+    }
+    
+    #inicio {
+      padding: 30px 0;
+    }
+    
+    .proyectos img {
+      max-width: 100%;
+      margin: 5px;
+    }
+  }
+  
